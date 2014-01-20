@@ -20,7 +20,7 @@
     "require": {
         "yiisoft/yii2": "*",
 		"yiisoft/yii2-jui": "*",
-		"blueimp/jquery-file-upload"
+		"blueimp/jquery-file-upload": "*"
     },
     "autoload": {
         "psr-0": {
