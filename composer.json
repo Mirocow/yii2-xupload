@@ -1,7 +1,7 @@
 {
     "name": "mirocow/yii2-xupload",
     "description": "Yii 2 jQuery-File-Upload",
-    "keywords": ["yii", "yii2", "upload", "jquery-file-upload", "xupload"],
+    "keywords": ["yii", "yii2", "yii2-jui", "upload", "jquery-file-upload", "xupload"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
@@ -18,11 +18,13 @@
     ],
 	"minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+		"yiisoft/yii2-jui": "*",
+		"blueimp/jquery-file-upload"
     },
     "autoload": {
         "psr-0": {
-            "\\xupload\\": ""
+            "\\mirocow\\xupload\\": ""
         }
     }
 }
